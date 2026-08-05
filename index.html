@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080709" />
+    <meta
+      name="description"
+      content="次神 NBTI 镖人联动人格测试：从 24 道走镖题中随机抽取 12 道，看看你混进镖队负责什么。"
+    />
+    <title>次神 NBTI · 镖人联动人格</title>
+    <link rel="icon" href="./assets/escort-seal.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css?v=20260804-zoom-fix" />
+    <script defer src="./vendor/lucide.min.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <button class="brand" id="brand-home" type="button" aria-label="返回测试首页">
+          <span class="brand-mark" aria-hidden="true">镖</span>
+          <span class="brand-copy">
+            <strong>次神 × 镖人</strong>
+            <small>草台镖队人格鉴定</small>
+          </span>
+        </button>
+        <div id="header-meta" class="header-meta" aria-live="polite"></div>
+      </header>
+
+      <main id="app" tabindex="-1"></main>
+
+      <footer class="site-footer">
+        <span>《次神：光之觉醒》镖人联动人格测试</span>
+        <span>本测试不影响镖局录用，因为镖局可能根本不会录用你。</span>
+      </footer>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <div id="modal-root"></div>
+  </body>
+</html>
+
+

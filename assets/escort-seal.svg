@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">镖队印章</title>
+  <desc id="desc">朱砂方印中的镖字</desc>
+  <rect width="128" height="128" rx="8" fill="#a52c24"/>
+  <path d="M12 14h104v99H12z" fill="none" stroke="#ead9ad" stroke-width="5"/>
+  <path d="M24 28h80M24 99h80M30 20v88M98 20v88" opacity=".25" stroke="#ead9ad" stroke-width="2"/>
+  <text x="64" y="84" text-anchor="middle" font-family="STKaiti, KaiTi, serif" font-size="68" font-weight="700" fill="#f4e8c7">镖</text>
+</svg>
