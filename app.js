@@ -1062,10 +1062,11 @@ const bonusChoices = [
 const results = [
   {
     "id": "harvester",
-    "name": "驿站钉子户",
+    "name": "老莫",
+    "archetype": "驿站钉子户",
     "character": "./assets/result-characters/harvester.webp",
-    "tagline": "大路一步没走，沿途驿站一个没落。",
-    "final": "你不是走不动，只是每个驿站都像必须点开的地图入口。",
+    "tagline": "镖可以晚到，队里的人必须一个不少。",
+    "final": "你不抢着出头，只会默默把水、路和退路都算好；等别人发现时，整支队伍早被你兜住了。",
     "symptoms": [
       "沿途领取",
       "驿站停靠",
@@ -1082,10 +1083,11 @@ const results = [
   },
   {
     "id": "red-dot",
-    "name": "悬赏哪有往哪钻",
+    "name": "竖",
+    "archetype": "悬赏哪有往哪钻",
     "character": "./assets/result-characters/red-dot.webp",
-    "tagline": "不问为什么出发，只问走完给什么。",
-    "final": "你追的不是路线，是每张悬赏背后那个尚未领取的红点。",
+    "tagline": "别人追进度，你追的是一件必须亲手结清的旧账。",
+    "final": "一旦目标被你钉上，红点不消、旧账不清，系统下线也拦不住你。",
     "symptoms": [
       "悬赏清空",
       "奖励全领",
@@ -1102,10 +1104,11 @@ const results = [
   },
   {
     "id": "hoarder",
-    "name": "包袱守财奴",
+    "name": "常贵人",
+    "archetype": "包袱守财奴",
     "character": "./assets/result-characters/hoarder.webp",
-    "tagline": "镖可以丢，包袱里的破布不能少。",
-    "final": "你押的可能不是镖，而是一包未来总有一天会派上用场的东西。",
+    "tagline": "安全感不在心里，在包袱最底下那格库存里。",
+    "final": "你相信世上没有废资源，只有暂时没轮到的宝贝；镖车超载不是问题，放下一件才是。",
     "symptoms": [
       "补给囤积",
       "材料保管",
@@ -1122,10 +1125,11 @@ const results = [
   },
   {
     "id": "stitcher",
-    "name": "野路子带队人",
+    "name": "刀马",
+    "archetype": "野路子带队人",
     "character": "./assets/result-characters/stitcher.webp",
-    "tagline": "正规路线一条不走，最后居然也到了。",
-    "final": "你不是没有计划，只是不愿使用已经被别人验证过的计划。",
+    "tagline": "路书只负责指方向，怎么活着到达由你决定。",
+    "final": "你不迷信标准路线，能走、能打、能带人回来就是好路线；至于计划，通常在出发之后补。",
     "symptoms": [
       "野路搭配",
       "非标带队",
@@ -1142,10 +1146,11 @@ const results = [
   },
   {
     "id": "guide-rebel",
-    "name": "路书逆子",
+    "name": "知世郎",
+    "archetype": "路书逆子",
     "character": "./assets/result-characters/guide-rebel.webp",
-    "tagline": "路书让往东，先去西边看看凭什么。",
-    "final": "你认真看路书，主要是为了准确找到从哪一页开始反着走。",
+    "tagline": "别人照着规则赶路，你先研究规则能不能掀了。",
+    "final": "你读懂路书不是为了服从，而是为了找出哪一页最值得撕；队伍可能跟不上，但时代会被你拖着走。",
     "symptoms": [
       "冷门路线",
       "路书反读",
@@ -1162,10 +1167,11 @@ const results = [
   },
   {
     "id": "quitter",
-    "name": "离队申请常客",
+    "name": "阿育娅",
+    "archetype": "离队申请常客",
     "character": "./assets/result-characters/quitter.webp",
-    "tagline": "每天申请离队，第二天照常出发。",
-    "final": "你的离队申请是一种情绪表达，从来不是人事变动。",
+    "tagline": "离队的话说得很重，回头救人的脚步更快。",
+    "final": "你情绪上来时真想把队伍扔在原地，可一听见有人出事，第一个折返的还是你。",
     "symptoms": [
       "每日离队",
       "准时归队",
@@ -1182,10 +1188,11 @@ const results = [
   },
   {
     "id": "guild-roamer",
-    "name": "茶摊情报头子",
+    "name": "燕子娘",
+    "archetype": "茶摊情报头子",
     "character": "./assets/result-characters/guild-roamer.webp",
-    "tagline": "镖走到哪不清楚，瓜吃到哪一清二楚。",
-    "final": "路线只是工作安排，沿途所有人的消息才是你的核心装备。",
+    "tagline": "路线图会过期，人情和消息不会。",
+    "final": "你走到哪都能把陌生人聊成情报点；镖局还在问路时，你已经知道前面谁撒谎、谁欠茶钱。",
     "symptoms": [
       "茶摊驻点",
       "队友情报",
@@ -1202,10 +1209,11 @@ const results = [
   },
   {
     "id": "reloader",
-    "name": "原地劫匪劝退员",
+    "name": "裴行俨",
+    "archetype": "原地劫匪劝退员",
     "character": "./assets/result-characters/reloader.webp",
-    "tagline": "打不过多来几次，对面迟早嫌烦。",
-    "final": "你相信重复不是失败，而是在持续消耗对手的耐心。",
+    "tagline": "一次没打穿就再来一次，直到对面先怀疑人生。",
+    "final": "你把失败理解成对手尚未充分认识你；策略可以晚点改，下一轮必须先开。",
     "symptoms": [
       "原地重试",
       "反复验证",
@@ -1222,10 +1230,11 @@ const results = [
   },
   {
     "id": "forensic",
-    "name": "镖局账房仵作",
+    "name": "谛听",
+    "archetype": "镖局账房仵作",
     "character": "./assets/result-characters/forensic.webp",
-    "tagline": "别人负责打架，你负责调查伤害怎么没的。",
-    "final": "战斗对别人是结算，对你才刚进入查账和验伤阶段。",
+    "tagline": "别人看见打完了，你听见线索才刚开始说话。",
+    "final": "脚印、伤口、路线和异常都得对上；队伍已经庆功，你还在给战场做审计。",
     "symptoms": [
       "伤害查账",
       "战斗复盘",
@@ -1243,10 +1252,11 @@ const results = [
   },
   {
     "id": "brute",
-    "name": "闭眼开路哥",
+    "name": "阿罗汉",
+    "archetype": "闭眼开路哥",
     "character": "./assets/result-characters/brute.webp",
-    "tagline": "地图可以路上看，出发不能再等。",
-    "final": "你不是不做准备，你把第一段实地赶路本身当成准备。",
+    "tagline": "门打不开就别研究门，先研究墙能不能倒。",
+    "final": "你解决问题的方法通常很短：确认方向，然后用力量删掉障碍；地图没看完不要紧，路已经被你打出来了。",
     "symptoms": [
       "快速开路",
       "先走再看",
@@ -1263,10 +1273,11 @@ const results = [
   },
   {
     "id": "mystic",
-    "name": "黄历型镖师",
+    "name": "小七",
+    "archetype": "黄历型镖师",
     "character": "./assets/result-characters/mystic.webp",
-    "tagline": "阵容没问题，主要是今天不宜通关。",
-    "final": "当数据无法解释失利，你会主动替今日黄历补一条禁忌。",
+    "tagline": "数到约定的数字，危险最好自己消失。",
+    "final": "你不是迷信，只是相信熟悉的仪式能让混乱变得可等；只要数还没完，这局就不能判输。",
     "symptoms": [
       "择时出发",
       "仪式开局",
@@ -1284,10 +1295,11 @@ const results = [
   },
   {
     "id": "looks-master",
-    "name": "镖队选美掌门",
+    "name": "胭脂刀",
+    "archetype": "镖队选美掌门",
     "character": "./assets/result-characters/looks-master.webp",
-    "tagline": "能不能打另说，队伍必须像正经剧组。",
-    "final": "强度会过期，但你的镖队合影必须经得住每一站围观。",
+    "tagline": "胜负可以晚点结算，出场不能没有记忆点。",
+    "final": "强度会被版本改写，风格却会留下；别人配阵容看数值，你先确认这支队伍像不像一张海报。",
     "symptoms": [
       "角色收集",
       "联动时装",
@@ -1788,6 +1800,7 @@ function renderResult({ reveal = false } = {}) {
           <div class="result-identity">
             <div class="result-copy">
               <p class="result-label">镖局分工</p>
+              <p class="result-archetype">原人格 · ${result.archetype}</p>
               <h1 id="result-title">${result.name}</h1>
             </div>
             <div class="result-character" aria-hidden="true">
@@ -1915,7 +1928,7 @@ function openCtaModal(result, resultId) {
 }
 
 async function shareResult(result) {
-  const text = `经镖局鉴定，我是【${result.name}】：${result.tagline} 这趟镖你又负责什么？`;
+  const text = `经镖局鉴定，我是【${result.name}】｜原人格：${result.archetype}。${result.tagline} 这趟镖你又是谁？`;
   if (navigator.share) {
     try {
       await navigator.share({ title: "次神 × 镖人 · 草台镖队人格", text });
