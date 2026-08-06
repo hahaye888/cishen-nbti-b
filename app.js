@@ -1998,6 +1998,10 @@ function downloadResultCard(result, evidence, resultId) {
   ctx.font = `700 22px Consolas, monospace`;
   ctx.fillText(resultId, 270, 198);
 
+  ctx.fillStyle = "#a52c24";
+  ctx.font = `800 24px ${font}`;
+  ctx.fillText(`原人格 · ${result.archetype}`, 270, 270);
+
   ctx.fillStyle = "#191713";
   ctx.font = `900 98px ${font}`;
   drawWrappedText(ctx, result.name, 270, 350, 700, 118);
