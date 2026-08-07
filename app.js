@@ -1842,7 +1842,7 @@ function renderResult({ reveal = false } = {}) {
             <h2 id="cta-title">网页验明正身，轮到实战押镖。</h2>
             <p>${result.final}</p>
             <button class="primary-button" id="game-cta" type="button">
-              ${result.cta}<i data-lucide="arrow-up-right"></i>
+              下一站跟着“${result.name}”前往次神世界吧<i data-lucide="arrow-up-right"></i>
             </button>
           </section>
         </div>
