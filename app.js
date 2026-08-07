@@ -1800,7 +1800,7 @@ function renderResult({ reveal = false } = {}) {
           <div class="result-identity">
             <div class="result-copy">
               <p class="result-label">镖局分工</p>
-              <p class="result-archetype">原人格 · ${result.archetype}</p>
+              <p class="result-archetype">${result.archetype}</p>
               <h1 id="result-title">${result.name}</h1>
             </div>
             <div class="result-character" aria-hidden="true">
@@ -1928,7 +1928,7 @@ function openCtaModal(result, resultId) {
 }
 
 async function shareResult(result) {
-  const text = `经镖局鉴定，我是【${result.name}】｜原人格：${result.archetype}。${result.tagline} 这趟镖你又是谁？`;
+  const text = `经镖局鉴定，我是【${result.name}】｜${result.archetype}。${result.tagline} 这趟镖你又是谁？`;
   if (navigator.share) {
     try {
       await navigator.share({ title: "次神 × 镖人 · 草台镖队人格", text });
@@ -2000,7 +2000,7 @@ function downloadResultCard(result, evidence, resultId) {
 
   ctx.fillStyle = "#a52c24";
   ctx.font = `800 24px ${font}`;
-  ctx.fillText(`原人格 · ${result.archetype}`, 270, 270);
+  ctx.fillText(`${result.archetype}`, 270, 270);
 
   ctx.fillStyle = "#191713";
   ctx.font = `900 98px ${font}`;
